@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<main class="container mt-5">
+		<div class="row justify-content-center">
+			<div class="col-md4">
+				<figure class="text-center">
+				  <blockquote class="blockquote">
+				    <h1>Comentarios</h1>
+				  </blockquote>
+				</figure>
+				<ul class="list-group">
+					{% for comentarios in comentarios %}
+					<li class="list-group-item list-group-item-action">
+						<header>
+							<div class="d-flex w-100 justify-content-between">
+								<h1 class="mb-1">{{comentarios.title}}</h1>
+							</div>
+								<p class="mb-1">{{comentarios.description}}</p>
+								<i>{{comentarios.user.username}}</i>
+						</header>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</main>
+{% endblock %}

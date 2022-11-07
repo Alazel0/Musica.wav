@@ -1,0 +1,69 @@
+* {  
+  box-sizing: border-box;   
+  padding: 0;   
+  margin: 0; 
+  font-family: 'Cormorant SC', serif;
+}
+
+h1 h2 h3 h4 h5{
+  font-family: 'Lobster', cursive;
+}
+
+.navbar img{
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover{
+  color: white;
+}
+
+@media (max-width: 700px){
+  header{
+    flex-direction: column;
+  }
+  nav{
+    padding: 10px 0px;
+  }
+}
+
+.cover{
+    height: 400px;
+    background-image: url(https://sm.ign.com/ign_es/news/b/berserk-ma/berserk-manga-to-continue-after-creators-death_92jx.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.card{
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.list-group{
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}

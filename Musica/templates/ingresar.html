@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class="container mt-5">
+	<div class="row justify-content-center">
+		<div class="col-md4">
+			<form action="/ingresar/" method="POST" class="card card-body" style="width: 18rem;">
+
+				<h1>Ingresar</h1>
+
+				{{error}}
+				
+				{% csrf_token %}
+				
+				<div class="md-3">
+					<label for="username">Username:</label>
+					<input type="text" name="username" id="username" class="form-control" placeholder="Write your username">
+				</div>
+
+				<div class="md-3">
+					<label for="password">Password:</label>
+					<input type="password" name="password" id="password" class="form-control" placeholder="Write your password">
+				</div>
+				<button class="btn btn-dark" style="margin-top: 15px;">
+					Login
+				</button>
+			</form>
+		</div>
+	</div>
+</main>
+
+{% endblock %}
