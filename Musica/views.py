@@ -40,7 +40,7 @@ def Descargas(request):
 
 	return render(request, 'Descargas.html', {'comentarios': comentarios})
 
-def comentarios(request):
+def crear_comentarios(request):
 	if request.method == 'GET':
 		return render(request,'comentarios.html', {
 				'form': ComentForm
