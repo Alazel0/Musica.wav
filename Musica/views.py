@@ -11,7 +11,7 @@ from .models import Comentarios
 def Home(request):
 	return render(request,'Home.html')
 
-def Musica(request):
+def Registrarse(request):
 
 	if request.method == 'GET':
 		return render(request,'Musica.html', {
