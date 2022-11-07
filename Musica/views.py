@@ -38,7 +38,7 @@ def Registrarse(request):
 def Descargas(request):
 	comentarios = Comentarios.objects.all()
 
-	return render(request, 'Descargas.html', {'comentarios': comentarios})
+	return render(request, 'Descargas.html', {'crear_comentarios': comentarios})
 
 def crear_comentarios(request):
 	if request.method == 'GET':
