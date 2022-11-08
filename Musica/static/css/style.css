@@ -30,6 +30,9 @@ nav a:hover{
   nav{
     padding: 10px 0px;
   }
+  .flex{
+    width: 100%;
+  }
 }
 
 .cover{
