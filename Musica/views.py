@@ -35,7 +35,7 @@ def Registrarse(request):
 			"error": 'Password do not match'
 		})
 
-def Descargas(request):
+def comentarios(request):
 	comentarios = Comentarios.objects.all()
 
 	return render(request, 'Descargas.html', {'crear_comentarios': comentarios})
