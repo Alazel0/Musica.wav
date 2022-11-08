@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
-class Comentarios(models.Model):
+class Crear_Comentarios(models.Model):
 	title = models.CharField(max_length=200)
 	description = models.TextField(blank=True)
 	created = models.DateTimeField(auto_now_add=True)
