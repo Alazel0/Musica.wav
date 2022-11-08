@@ -3,7 +3,7 @@ from .models import Comentarios
 
 class ComentForm(forms.ModelForm):
 	class Meta:
-		model = Crear_Comentarios
+		model = Comentarios
 		fields = ['title', 'description', 'important']
 		widgets = {
 			'title': forms.TextInput(attrs={'class': 'form-control'}),
