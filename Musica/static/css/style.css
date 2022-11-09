@@ -23,18 +23,6 @@ nav a:hover{
   color: white;
 }
 
-@media (max-width: 700px){
-  header{
-    flex-direction: column;
-  }
-  nav{
-    padding: 10px 0px;
-  }
-  .flex{
-    width: 100%;
-  }
-}
-
 .cover{
     height: 400px;
     background-image: url(https://sm.ign.com/ign_es/news/b/berserk-ma/berserk-manga-to-continue-after-creators-death_92jx.jpg);
@@ -69,4 +57,13 @@ nav a:hover{
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: default;
   transition: all 400ms ease;
+}
+
+@media (max-width: 700px){
+  header{
+    flex-direction: column;
+  }
+  nav{
+    padding: 10px 0px;
+  }
 }
