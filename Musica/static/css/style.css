@@ -70,6 +70,6 @@ nav a:hover{
     padding: 2.5rem;
     flex-direction: column;
     width: 100%;
-    transform: translate(8rem);
+    transform: translate(0);
   }
 }
