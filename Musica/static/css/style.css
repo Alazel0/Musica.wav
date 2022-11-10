@@ -70,7 +70,7 @@ nav a:hover{
     padding: 2.5rem;
     flex-direction: column;
   }
-  .img{
+  .flex-shrink-0{
     min-width: 100%;
     max-width: 100%;
     transform: translate(0, -8rem);
