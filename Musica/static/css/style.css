@@ -66,4 +66,12 @@ nav a:hover{
   nav{
     padding: 10px 0px;
   }
+  .container{
+    flex-direction: column;
+  }
+  .img{
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0, -8rem);
+  }
 }
