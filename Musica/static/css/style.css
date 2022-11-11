@@ -5,6 +5,10 @@
   font-family: 'Cormorant SC', serif;
 }
 
+body{
+  background-color: #cfcfcf;
+}
+
 h1 h2 h3 h4 h5{
   font-family: 'Lobster', cursive;
 }
