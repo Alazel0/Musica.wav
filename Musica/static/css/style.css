@@ -63,6 +63,22 @@ nav a:hover{
   transition: all 400ms ease;
 }
 
+.category_list{
+  display: flex;
+}
+.category_list .category_item{
+  display: block;
+  padding: 15px, 0;
+  margin-bottom: 20px;
+  background: #ff7070;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.category_list .ct_item-active{
+  background: #cfcfcf;
+}
+
 @media (max-width: 700px){
   header{
     flex-direction: column;
