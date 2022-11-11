@@ -71,12 +71,14 @@ nav a:hover{
     padding: 10px 0px;
   }
   .container .d-flex{
-    padding: 2.5rem;
+    padding: 0;
     flex-direction: column;
     width: 100%;
     transform: translate(0);
   }
   .flex-shrink-0{
+    display: flex;
+    justify-content: center;
     padding-bottom: 10px;
   }
   th{
