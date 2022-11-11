@@ -72,4 +72,16 @@ nav a:hover{
     width: 100%;
     transform: translate(0);
   }
+  th{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  td{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
 }
