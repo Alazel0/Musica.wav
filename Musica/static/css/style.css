@@ -76,6 +76,11 @@ nav a:hover{
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+#todo{
+  background-image: url(https://images.vexels.com/media/users/3/102909/raw/4cc50d13fe7a0098d3bae812851207ef-fondo-musical-corcheas.jpg);
+  color: #fff;
+  background-position: center;
+}
 .category_list .ct_item-active{
   background-color: rgba(0, 0, 0, 0.5);
 }
