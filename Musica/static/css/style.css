@@ -65,11 +65,11 @@ nav a:hover{
 
 .category_list{
   display: flex;
+  border-radius: 6px;
 }
 .category_list .category_item{
   display: block;
   width: 100%;
-  border-radius: 6px;
   margin-bottom: 20px;
   background: #f73131;
   text-align: center;
