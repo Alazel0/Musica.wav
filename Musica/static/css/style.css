@@ -68,7 +68,7 @@ nav a:hover{
 }
 .category_list .category_item{
   display: block;
-  padding: 15px, 0;
+  width: 100%;
   margin-bottom: 20px;
   background: #ff7070;
   text-align: center;
