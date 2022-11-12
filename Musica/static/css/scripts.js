@@ -9,14 +9,17 @@ $(document).ready(function(){
         $('.musik-item').css('transform', 'scale(0)');
         function hideMusik(){
             $('.musik-item').hide();
-        } setTimeout(hideMusik,400)
+        } setTimeout(hideMusik,400);
 
         function showMusik(){
             $('.musik-item[category="'+catMusik+'"]').show();
             $('.musik-item[category="'+catMusik+'"]').css('transform', 'scale(1)');
-        } setTimeout(showMusik,400)
+        } setTimeout(showMusik,400);
     });
     $('.category_item[category="all"]').click(function(){
-        $('.musik-item').show();
+        function showAll(){
+            $('.musik-item').show();
+            $('.musik-item').css('transform', 'scale(1)');
+        } setTimeout(showAll,400);
     });
 });
