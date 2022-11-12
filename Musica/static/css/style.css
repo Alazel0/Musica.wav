@@ -76,9 +76,6 @@ nav a:hover{
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-.all{
-  background: #fff;
-}
 .category_list .ct_item-active{
   background-color: rgba(0, 0, 0, 0.5);
 }
