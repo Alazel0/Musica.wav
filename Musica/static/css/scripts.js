@@ -10,4 +10,7 @@ $(document).ready(function(){
 
         $('.musik-item[category="'+catMusik+'"]').show();
     });
+    $('.category_item[category="all"]').click(function(){
+        $('musik-item').show();
+    });
 });
