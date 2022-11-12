@@ -7,5 +7,7 @@ $(document).ready(function(){
         $(this).addClass('ct_item-active');
 
         $('.musik-item').hide();
+
+        $('.musik-item[category="++"]').show();
     });
 });
