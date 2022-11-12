@@ -6,7 +6,7 @@ $(document).ready(function(){
         $('.category_item').removeClass('ct_item-active');
         $(this).addClass('ct_item-active');
 
-        $('.musik-item ').hide();
+        $('.musik-item').hide();
 
         $('.musik-item[category="++"]').show();
     });
