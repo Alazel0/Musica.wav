@@ -6,9 +6,15 @@ $(document).ready(function(){
         $('.category_item').removeClass('ct_item-active');
         $(this).addClass('ct_item-active');
 
-        $('.musik-item').hide();
+        $('.musik-item').css('transform', 'scale(0)');
+        function hideMusik(){
+            $('.musik-item').hide();
+        } setTimeout(hideMusik,400)
 
-        $('.musik-item[category="'+catMusik+'"]').show();
+        function showMusik(){
+            $('.musik-item[category="'+catMusik+'"]').show();
+            $('.musik-item[category="'+catMusik+'"]').css('transform', 'scale(1)');
+        } setTimeout(showMusik,400)
     });
     $('.category_item[category="all"]').click(function(){
         $('.musik-item').show();

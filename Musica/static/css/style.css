@@ -79,6 +79,9 @@ nav a:hover{
 .category_list .ct_item-active{
   background-color: rgba(0, 0, 0, 0.5);
 }
+.musik-list{
+  transition: all .4s;
+}
 
 @media (max-width: 700px){
   header{
