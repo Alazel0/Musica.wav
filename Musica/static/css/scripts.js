@@ -8,6 +8,6 @@ $(document).ready(function(){
 
         $('.musik-item').hide();
 
-        $('.musik-item[category="++"]').show();
+        $('.musik-item[category="'+catMusik+'"]').show();
     });
 });
