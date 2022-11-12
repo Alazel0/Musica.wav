@@ -86,6 +86,9 @@ nav a:hover{
   nav{
     padding: 10px 0px;
   }
+  .category_list{
+    flex-direction: column;
+  }
   .container .d-flex{
     padding: 0;
     flex-direction: column;
