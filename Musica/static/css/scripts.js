@@ -6,8 +6,8 @@ $(document).ready(function(){
         $('.category_item').removeClass('ct_item-active');
         $(this).addClass('ct_item-active');
 
-        $('.card').hide();
+        $('.musik-item ').hide();
 
-        $('.card[category="++"]').show();
+        $('.musik-item[category="++"]').show();
     });
 });
