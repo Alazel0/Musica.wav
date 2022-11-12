@@ -69,14 +69,15 @@ nav a:hover{
 .category_list .category_item{
   display: block;
   width: 100%;
+  border-radius: 6px;
   margin-bottom: 20px;
-  background: #ff7070;
+  background: #f73131;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .category_list .ct_item-active{
-  background: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 700px){
