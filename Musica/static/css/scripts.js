@@ -6,20 +6,20 @@ $(document).ready(function(){
         $('.category_item').removeClass('ct_item-active');
         $(this).addClass('ct_item-active');
 
-        $('.musik-item .container mt-5').css('transform', 'scale(0)');
+        $('.musik-item').css('transform', 'scale(0)');
         function hideMusik(){
-            $('.musik-item .container mt-5').hide();
+            $('.musik-item').hide();
         } setTimeout(hideMusik,400);
 
         function showMusik(){
-            $('.musik-item .container mt-5[category="'+catMusik+'"]').show();
-            $('.musik-item .container mt-5[category="'+catMusik+'"]').css('transform', 'scale(1)');
+            $('.musik-item[category="'+catMusik+'"]').show();
+            $('.musik-item[category="'+catMusik+'"]').css('transform', 'scale(1)');
         } setTimeout(showMusik,400);
     });
     $('.category_item[category="all"]').click(function(){
         function showAll(){
-            $('.musik-item .container mt-5').show();
-            $('.musik-item .container mt-5').css('transform', 'scale(1)');
+            $('.musik-item').show();
+            $('.musik-item').css('transform', 'scale(1)');
         } setTimeout(showAll,400);
     });
 });
