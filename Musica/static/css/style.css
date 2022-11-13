@@ -80,9 +80,35 @@ nav a:hover{
   background-image: url(https://images.vexels.com/media/users/3/102909/raw/4cc50d13fe7a0098d3bae812851207ef-fondo-musical-corcheas.jpg);
   color: #fff;
   background-position: center;
+  background-size: cover;
+}
+#rock{
+  background-image: url(https://www.curiosidades-del-rock.com/base/stock/Parameter/22-image-rock/22-image-rock_web.jpg);
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+}
+#hip-hop{
+  background-image: url(https://i.pinimg.com/564x/8a/3d/3c/8a3d3c34fe52de552903232b87d689b1.jpg);
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+}
+#videosGame{
+  background-image: url(https://e0.pxfuel.com/wallpapers/542/142/desktop-wallpaper-video-game-mashup-art-page-1-thumbnail.jpg);
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+}
+#pop{
+  background-image: url(https://wallpapercave.com/wp/wp1826781.jpg);
+  color: #fff;
+  background-position: center;
+  background-size: cover;
 }
 .category_list .ct_item-active{
   background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 .musik-item{
   transition: all .4s;
