@@ -48,7 +48,7 @@ nav a:hover{
   cursor: default;
   transition: all 400ms ease;
 }
-.card .a{
+.card a{
   background-color: blanchedalmond;
 }
 .card:hover{
